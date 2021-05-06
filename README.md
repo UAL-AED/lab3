@@ -51,3 +51,28 @@ Os testes pode ser executados de várias formas:
 A versão final do trabalho deve estar disponível na *branch* `main` do repositório até à hora limite de entrega. <span style="color: red">Não serão considerados *commits* com data posterior à data limite.</span>
 
 A entrega deve também ser feita no *e-learning*, num ficheiro `zip` com todo o projeto.
+
+## Atualização de enunciado
+
+Repositório: <https://github.com/UAL-AED/lab3>
+
+Para efetuar a atualização de enunciado:
+
+1. Registar o repositório como `upstream` (só deve acontecer uma vez)
+  
+      git remote add upstream https://github.com/UAL-AED/lab3
+
+2. Atualizar o `upstream` (sempre que existirem atualizações)
+
+      git fetch upstream
+
+3. Obter as alterações (e.g., ficheiro `README.md`)
+      
+      git checkout upstream/main README.md
+
+### Atualização 2021/05/06
+
+    git fetch upstream
+    git checkout upstream/main README.md
+    git checkout upstream/main tests/lists/test_doubly_linked_list_iterator.py
+    git checkout upstream/main tests/lists/test_singly_linked_list_iterator.py

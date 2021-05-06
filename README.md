@@ -60,15 +60,15 @@ Para efetuar a atualização de enunciado:
 
 1. Registar o repositório como `upstream` (só deve acontecer uma vez)
   
-      git remote add upstream https://github.com/UAL-AED/lab3
+        git remote add upstream https://github.com/UAL-AED/lab3
 
 2. Atualizar o `upstream` (sempre que existirem atualizações)
 
-      git fetch upstream
+        git fetch upstream
 
 3. Obter as alterações (e.g., ficheiro `README.md`)
       
-      git checkout upstream/main README.md
+        git checkout upstream/main README.md
 
 ### Atualização 2021/05/06
 

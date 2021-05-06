@@ -27,9 +27,9 @@ Os testes não são necessariamente exaustivos, pelo que o grupo de trabalho pod
 Os testes pode ser executados de várias formas:
 
 - Todos os testes de uma classe
-  - E.g., `python -m unittest test.singly_linked_list`
+  - E.g., `python -m unittest tests.lists.singly_linked_list`
 - Apenas um teste de uma classe
-  - E.g., `python -m unittest test.singly_linked_list.SinglyLinkedList.test_is_empty`
+  - E.g., `python -m unittest tests.lists.singly_linked_list.SinglyLinkedList.test_is_empty`
 - Todos os ficheiros de teste
   - `python -m unittest discover tests`
 
